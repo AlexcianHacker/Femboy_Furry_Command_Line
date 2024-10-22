@@ -1,2 +1,2 @@
 #include <iostream>
-int main() { std::cout<< "niggus"; }
+int main() { std::cout<< " "; }
