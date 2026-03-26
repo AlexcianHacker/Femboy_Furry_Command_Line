@@ -316,7 +316,7 @@ def sepNumCum(x: int) -> str:
   return "{:,}".format(x) 
 
 def acpplinker(linkster: str): 
-  ## Alex C++ Linker 
+  ## C++ Linker Interface 
   ret2: str = "" 
   fnextn: list[str] = linkster.split(".") 
   fnext: str = "".join(fnextn) 
@@ -337,7 +337,7 @@ def acpplinker(linkster: str):
 
 def cpplinklauncher() -> None: 
   os.system("clear") 
-  print(Fore.GREEN + "Alex C++ Linker! :3 ")
+  print(Fore.GREEN + "Wrapped C++ Linker! :3 ")
   print(Fore.RED + Back.YELLOW + "Enter -options For Cummands " + Back.RESET) 
   while True: 
     link: str = input(Fore.RED + "UwU> " + Fore.RESET) 
